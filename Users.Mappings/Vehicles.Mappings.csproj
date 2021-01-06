@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vehicles.Contracts\Vehicles.Contracts.csproj" />
+    <ProjectReference Include="..\Vehicles.Data\Vehicles.Data.csproj" />
+    <ProjectReference Include="..\Vehicles.Models\Vehicles.Models.csproj" />
+  </ItemGroup>
+
+</Project>
